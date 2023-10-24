@@ -5,6 +5,9 @@
 	"version": "1.0.0",
 	"main": "+server.js",
 	"license": "Unlicense",
+	"engines": {
+		"node": "16.x"
+	},
 	"scripts": {
 		
 	},
