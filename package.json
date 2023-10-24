@@ -1,0 +1,15 @@
+{
+	"name": "html-feed-example-server",
+	"author": "Paul Gordon",
+	"description": "",
+	"version": "1.0.0",
+	"main": "+server.js",
+	"license": "Unlicense",
+	"scripts": {
+		
+	},
+	"dependencies": {
+		"@types/node": "^20.8.7",
+		"txtgen": "^3.0.6"
+	}
+}

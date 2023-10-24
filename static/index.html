@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta name="author" content="Jane Doe">
+<meta name="description" content="Random Generated Quotes">
+<link rel="icon" href="avatar.jpg">
+<style>
+*
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+FORM
+{
+	display: inline-block;
+}
+BUTTON
+{
+	font-size: 1.5em;
+}
+IFRAME
+{
+	width: 90%;
+	width: -webkit-fill-available;
+	border: 0;
+}
+</style>
+<h1>HTML Feeds Test Server</h1>
+<p>
+	Feed URL is <a href="/index.txt">index.txt</a>
+</p>
+<form action="/add-post" target="iframe">
+	<button type="submit">Add a post</button>
+</form>
+<form action="/clear-feed" target="iframe">
+	<button type="submit">Clear entire feed</button>
+</form>
+<br>
+<iframe id="iframe" name="iframe" style="padding: 10px 0"></iframe>
