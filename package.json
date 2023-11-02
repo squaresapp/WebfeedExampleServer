@@ -9,7 +9,7 @@
 		"node": "16.x"
 	},
 	"scripts": {
-		
+		"start": "tsc -p tsconfig.json && node ./+server.js"
 	},
 	"dependencies": {
 		"@types/node": "^20.8.7",
