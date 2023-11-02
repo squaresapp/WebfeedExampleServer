@@ -30,6 +30,15 @@ IFRAME
 <p>
 	Feed URL in the html:// URI scheme is <a href="html://follow?http://localhost:12345/index.txt">html://follow?http://localhost:12345/index.txt</a>
 </p>
+<p>
+	<a href="javascript:copy()">Click here to copy the link to the clipboard</a>
+	<script>
+		function copy()
+		{
+			navigator.clipboard.writeText("html://follow?http://localhost:12345/index.txt");
+		}
+	</script>
+</p>
 <form action="/add-post" target="iframe">
 	<button type="submit">Add a post</button>
 </form>
