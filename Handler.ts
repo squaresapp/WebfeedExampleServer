@@ -88,13 +88,18 @@ namespace HtmlFeedExampleServer
 					"content-type": "text/html"
 				});
 				
+				const num = parseInt(fileName.slice("post-".length));
+				randomReset(num);
+				
 				const staticPath = 
 					fileName + 
 					(fileName.endsWith("/index.html") ? "" : "/index.html");
 				
 				const indexHtml = readStaticFile("template.html")
 					.toString("utf8")
-					.replaceAll("{hue}", Math.round(Math.random() * 360).toString())
+					.replaceAll("{hue1}", random(360).toString())
+					.replaceAll("{hue2}", random(360).toString())
+					.replaceAll("{hue3}", random(360).toString())
 					.replace("{section1}", Text.phrase(3))
 					.replace("{section2}", Text.paragraph(1))
 					.replace("{section3}", Text.paragraph(2));

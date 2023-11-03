@@ -10,7 +10,7 @@ namespace HtmlFeedExampleServer
 		export function word(cap?: "cap")
 		{
 			const nouns = txtgen.getNouns();
-			const noun = nouns[Math.floor(Math.random() * nouns.length)];
+			const noun = nouns[random(nouns.length)];
 			return cap ? noun.slice(0, 1).toUpperCase() + noun.slice(1) : noun;
 		}
 		
