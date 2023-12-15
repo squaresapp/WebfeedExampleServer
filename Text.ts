@@ -1,5 +1,5 @@
 
-namespace HtmlFeedExampleServer
+namespace WebfeedExampleServer
 {
 	const txtgen = require("./txtgen") as typeof import("txtgen");
 	

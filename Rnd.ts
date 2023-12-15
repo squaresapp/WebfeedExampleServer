@@ -1,5 +1,5 @@
 
-namespace HtmlFeedExampleServer
+namespace WebfeedExampleServer
 {
 	/** */
 	export function randomReset(seed: number)

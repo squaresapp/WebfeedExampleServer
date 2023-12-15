@@ -1,6 +1,6 @@
-# HTML Feed Example Server
+# Webfeed Example Server
 
-This repository contains a Node.JS server that can be used for HTML Feed reader apps to test out the process of subscribing to new HTML Feeds, and polling them for updates.
+This repository contains a Node.JS server that can be used for Webfeed reader apps to test out the process of subscribing to new Webfeeds, and polling them for updates.
 
 ## Setup Instructions
 

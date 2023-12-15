@@ -1,5 +1,5 @@
 
-namespace HtmlFeedExampleServer
+namespace WebfeedExampleServer
 {
 	const Http = require("http") as typeof import("http");
 	const Fs = require("fs") as typeof import("fs");
@@ -112,7 +112,7 @@ namespace HtmlFeedExampleServer
 		server.listen(12345);
 		
 		console.log("");
-		console.log("HTML Feed server listening at address: http://localhost:12345");
+		console.log("Webfeed server listening at address: http://localhost:12345");
 		console.log("");
 	}
 	
